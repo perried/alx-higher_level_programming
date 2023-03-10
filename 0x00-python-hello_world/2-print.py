@@ -1,5 +1,5 @@
 #!/usr/bin/python3
 
-#usin print function 
+#using print function 
 
-print("Programming is like building a multilingual puzzl\n")
+print("Programming is like building a multilingual puzzle\n")
