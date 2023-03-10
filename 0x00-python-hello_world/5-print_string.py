@@ -2,5 +2,7 @@
 
 str = "Holberton School"
 
-print(str * 3)
+print(str, end="")
+print(str)
+print(str + "\n")
 print(str[:10])
