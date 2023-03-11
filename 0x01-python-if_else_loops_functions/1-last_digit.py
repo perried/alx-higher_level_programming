@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 
 import random
+import math
 
 number = random.randint(-10000, 10000)
-last_digit = number % 10
+last_digit = number -math.floor(number / 10) *10
 
 
 print(f"Last digit of {number} is", end=" ")
